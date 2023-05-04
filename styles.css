@@ -1,0 +1,96 @@
+/* Center everything in body */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: hsl(217, 54%, 11%);
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+
+}
+
+
+/* Styling the card */
+.card {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    padding: 1rem;
+    max-width: 300px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+}
+
+/* Styling the main image */
+img.logo {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Styling the main info box */
+.title {
+    color: white;
+    font-weight: 600;
+}
+
+.subtitle {
+    color: hsl(215, 51%, 70%);
+    font-size: 15px;
+    margin: 0 auto;
+}
+
+/* styling subinfo: price and the time remain  */
+.SubInfo,
+.price,
+.time-remain {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border-bottom: 0.5px solid hsl(215, 32%, 27%);
+}
+
+.price {
+    flex: 1;
+    font-size: 14px;
+    color: hsl(178, 100%, 50%);
+    font-weight: 400;
+}
+
+.time-remain {
+    flex: 1;
+    font-size: 14px;
+    justify-content: flex-end;
+    color: hsl(215, 51%, 70%);
+}
+
+/* Styling the author box */
+.author {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-top: 5px;
+    font-size: 14px;
+    color: hsl(215, 51%, 70%);
+}
+
+img.avatar {
+    border: 3px solid white;
+    border-radius: 50%;
+}
+
+.author-name {
+    color: white;
+}
+
+/* Effects when hovering over the object */
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: hsl(178, 100%, 50%);
+}
